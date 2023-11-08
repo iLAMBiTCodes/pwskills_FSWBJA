@@ -1,0 +1,15 @@
+#container3 h1{
+    color: Blue;
+}
+/* This selector with the property is applied for Inline vs External */
+#external{
+    color: blue;
+}
+/* This selector with the property is applied for Internal vs External */
+.external1{
+    color: blue;
+}
+/* This selector with the property is applied for Inline vs Internal vs External */
+.external2{
+    color: green;
+}

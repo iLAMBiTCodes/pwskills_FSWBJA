@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline|Internal|External
+    </title>
+    <style>
+        #container2 h1{
+            color: green;
+        }
+        /* This CSS property is for Inline vs Internal */
+        #internal{
+            color: blue;
+        }
+        .internal1{
+            color: red;
+        }
+        .internal2{
+            color: green;
+        }
+
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- In Inline CSS, we use the style attribute in the target element. -->
+    <div id="container1">
+        <h1 style="color: red;">-Inline CSS</h1>
+    </div>
+    <!-- In Internal CSS, we use style element inside the head element(as we can see above) and inside the style element we select a particular element/class/id and apply CSS property thereafter. -->
+    <div id="container2">
+        <h1>-Internal CSS</h1>
+    </div>
+    <!-- In External CSS, we link an external CSS file(style.css in this case) and link it using the link element inside the head element and inside the css file, we write css code and select a particular element/class/id and apply CSS properties. -->
+    <div id="container3">
+        <h1>-External CSS</h1>
+    </div>
+    <hr>
+    <!-- When we target the same element with inline, internal and external all at once, the styling from inline gets rendered because the order is inline>internal>external  -->
+    <h1 style="color: red;" id="internal">Inline vs Internal</h1>
+    <!-- Here the color red is shown not blue which is applied internally. So Inline won in this case. -->
+    <h1 style="color: red;" id="external">Inline vs External</h1>
+    <!-- Also in this case, inline won -->
+    <!-- Now Internal vs External -->
+    <h1 class="internal1" class="external1">Internal vs External </h1>
+    <!-- Here Internal won as well as the selector .internal1 with css color property is applied -->
+    <!-- Lets see what happens when we apply all at once -->
+    <h1 style="color: red;" class="internal2" class="external2">Inline vs Internal vs External</h1>
+    <!-- As expected from the above results. Inline won -->
+    <h1>Result:Inline&gt;Internal&gt;External&gt;</h1>
+</body>
+</html>

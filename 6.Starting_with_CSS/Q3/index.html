@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Sign In</h1>
+
+    <div class="form-container">
+      <form action="">
+        <label for="userid">User ID</label>
+        <input type="text" name="UserID" id="userid" required />
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required />
+
+        <label for="password">Password</label>
+        <input type="password" required />
+
+        <label for="acctype">Account Type</label>
+        <select name="acctype" id="acctype">
+          <option value="personal">Personal</option>
+          <option value="business">Business</option>
+        </select>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

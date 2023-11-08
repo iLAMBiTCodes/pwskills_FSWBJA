@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Demonstration</title>
+    <style>
+        /* Styles for a specific class */
+        .paragraph__heading{
+            color: yellow;
+            text-shadow: 2px 2px 3px blue;
+            
+        }
+        /* Targetting all paragraphs */
+        .paragraph__about{
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        /* Style for a particular element */
+        .paragraph--red .paragraph__about{
+            color: red;
+        }
+        /* The above is equivalent to writing as--
+            .paragraph.paragraph--red .paragraph__about{
+            color: red;
+        } */
+        .paragraph--green .paragraph__about{
+            color: green;
+        }
+        .paragraph--blue .paragraph__about{
+            color: blue;
+        }
+        .paragraph--blue{
+            font-size: 50px;
+        }
+        /* The paragraph size didn't change because of CSS specificity */
+        
+    </style>
+</head>
+<body>
+    <div class="paragraph">
+        <h1 class="paragraph__heading">Paragraph</h1>
+        <p class="paragraph__about">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <div class="paragraph paragraph--red">
+        <h1 class="paragraph__heading">Paragraph Red</h1>
+        <p class="paragraph__about">Lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="paragraph paragraph--green">
+        <h1 class="paragraph__heading">Paragaph Green</h1>
+        <p class="paragraph__about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, repudiandae?</p>
+    </div>
+    <div class="paragraph paragraph--blue">
+        <h1 class="paragraph__heading">Paragaph Blue</h1>
+        <p class="paragraph__about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt culpa nesciunt, officiis maiores dicta nobis?</p>
+    </div>
+</body>
+</html>
