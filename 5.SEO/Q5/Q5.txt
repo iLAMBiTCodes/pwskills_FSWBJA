@@ -1,0 +1,15 @@
+A favicon of a website is a small icon of a site or a page that is shown at the address bar or in the browser tab and this icon shows the brand logo of the website.
+Here is an illustrative example:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./music.png" type="image/x-icon">
+    <title>Music</title>
+</head>
+<body>
+    <!-- Music content goes here -->
+</body>
+</html>

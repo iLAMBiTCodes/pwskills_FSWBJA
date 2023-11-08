@@ -1,0 +1,7 @@
+HTML entities are pieces of text in HTML that represents special characters, symbols and reserved characters which cannot be included directly in the HTML code.
+List of 5 commonly used HTML entites are:
+1.less than(<): &lt;
+2.greater than(>): &gt;
+3.ampersand(&): &amp;
+4.copyright(©): &copy;
+5.non-breaking space( ): &nbsp;

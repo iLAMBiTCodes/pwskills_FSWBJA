@@ -1,0 +1,3 @@
+The DOCTYPE Declaration is the piece of code that declares the document to be an HTML document. The DOCTYPE Declaration is required in order to run the document in the browser engine. The DOCTYPE declaration is:
+<!DOCTYPE html>
+However, the doctype declaration is not an HTML tag although it looks like an self closing tag

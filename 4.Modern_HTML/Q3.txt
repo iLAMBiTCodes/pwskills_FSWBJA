@@ -1,0 +1,2 @@
+Accessability, in the context of web development, is the practice of making your websites usable by as many people as possible. It is essential because Accessability mainly focuses on people with disabilites so that they can navigate and interact with the web.
+For example: A blind person would not be able to see the website but with the help of keyboard or other device and with the help of accessibility he can navigate, interact the website through the sound output

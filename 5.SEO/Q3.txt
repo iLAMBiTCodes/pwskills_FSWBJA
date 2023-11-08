@@ -1,0 +1,4 @@
+The benefits of using meta tags are explained below:
+1.Improved SEO: Meta tags improve Search Engine Optimization for the site and using the meta tags effectively brings traffic and improve rank.
+2.No Duplicate Content Issues: The canonical meta tag helps prevent duplicate content uses by adding the preferred page when there are other URLs with the same content.
+3.Accessibility: Meta tags also helps in improving the Accessibility in HTML

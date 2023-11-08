@@ -1,0 +1,4 @@
+3 ways to improve the accessability in HTML:
+1. By using Semantic tags we can add more meaningful structure to the user and hence navigation becomes easier.
+2. By the use of alternative text for the images and other content, the user can get a idea about the content.
+3. Using Aria tags can bring a lot of improvement in accessability.

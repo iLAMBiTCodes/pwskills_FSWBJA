@@ -1,0 +1,6 @@
+Tag: A tag or a HTML tag is a property that gives the structure to the HTML document. A tag is usually written and enclosed with the angle brackets i.e. <tag>.
+There are usually two types of tag, called opening tag and closing tag. The opening and closing tag are written as <tag> and </tag> respectively. Together with the content inside, they form an HTML element. There are also self closing tags which doesn't require any closing tag. For example: The paragraph tag <p>,The image tag <img>, The H1 heading tag <h1>, etc
+Element: An HTML element is usually formed by opening tag, some content and then the correspoding closing tag. However this isn't always true. The content formed by the self closing tag <img> is an HTML element. The examples are shown below:
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<img src="./images/image.jpg" alt="This is an Image">

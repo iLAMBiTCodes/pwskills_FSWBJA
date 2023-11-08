@@ -1,0 +1,17 @@
+The purpose of comments in HTML is to add notes or explanations for the code. Also, the comment doesn't get rendered in the browser engine and hence not displayed in the browser.
+We write a comment in the following way:
+<!--write the comment here-->
+We add this to a new line and explain about code
+
+Consider the following code:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p>This is a paragraph</p>
+    <!--the p tag is called the paragraph tag and the content inside written inside this tag is paragraph-->
+</body>
+</html>

@@ -1,0 +1,15 @@
+The features of HTML 5 are as follows:
+1. Semantic Tags
+2. Audio and Video Tags
+3. Addition of Canvas
+4. Responsive images using picture tag
+5. Drag and Drop Interface
+6. SVG graphics
+7. Improvement in forms
+8. Web Storage
+9. Web Workers
+10. Geolocation
+11. Web Sockets
+12. Improvement Accessibility
+13. Improved APIs
+14. Offline Web Applications
