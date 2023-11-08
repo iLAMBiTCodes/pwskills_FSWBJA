@@ -1,0 +1,7 @@
+The differences between Flexbox and Grid is described below:
+1. The layout of Flexbox is one-dimensional i.e. either in row or in column whereas the layout in Grid is two dimensional as the layout system contains grid formed by rows and columns simultaneously.
+2. Flexbox is more beneficial when it comes to aligning items along a row or column but Grid is more beneficial when it comes to layout of elements in a grid.
+3. In Flexbox, we have to manually handle gaps and spaces between items whereas Grid allows to specify gap between the items in the grid. However, in the new version of Flexbox specifying the gap is added.
+4.Flexbox is mainly useful of creating navigation bar, aligning items in a container. Grid is useful for complex layouts like website grids, forms and image galleries.
+
+One would choose Flexbox over Grid for aligning and layouting items in an axis or in a container but Grid is more helpful in complex layouts like grid when there is a reasonable amount of items.

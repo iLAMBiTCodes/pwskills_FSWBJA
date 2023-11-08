@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    background-color: #ffe8c9;
+    border-radius: 20px;
+    font-size: 100px;
+    padding: 90px;
+}
+.container{
+    display: grid;
+    width: 70vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 20px;
+    padding: 20px;
+}
+.box-A{
+    grid-area: 1 / 1 / 2 / 3;
+}
+.box-B{
+    grid-area: 1 / 3/ 3 / 4;
+}
+.box-C{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.box-D{
+    grid-area: 2 / 2 / 3/ 3;
+}

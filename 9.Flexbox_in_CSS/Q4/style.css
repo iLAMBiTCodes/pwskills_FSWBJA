@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+    background-color: rgb(244, 242, 253);
+}
+.price-section{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card1,
+.card3{
+    height: fit-content;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    color: #202842;
+    padding: 32px;
+    margin: 32px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card2{
+    min-height: 300px;
+    width: 200px;
+    background-color: #202842;
+    color: white;
+    padding: 32px;
+    margin: 32px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.price{
+    font-size: 36px;
+}
+.features{
+    display: flex;
+}
+.sub-button{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.subscibe{
+    padding: 8px 24px;
+    border-radius: 50px;
+}
+.subscibe-light{
+    background-color: #202842;
+    color: #fff;
+    
+}
+.subscibe-dark{
+    background-color: #fff;
+    color: #202842;
+}

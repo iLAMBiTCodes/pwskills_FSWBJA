@@ -1,0 +1,5 @@
+1.justify-content: It positions the elements in the main-axis. The key vales for justify-content are flex-start, flex-end, center, space-around, space-evenly, space-between, etc. For example the property justify-content: center; applied to the parent would center the childs in the main axis.
+2.align-items: It positions the elements in the corsss-axis. The key vales for align-items are the same as justif-content.
+3.gap: gap specifies a gap between the child elements.
+4.flex-direction: It defines the main-axis and the cross axis. The default value is row and other values are row-reverse, column, column-reverse, etc. When we suppose let flex-direction: column; then the main-axis is the vertical axis.
+5.flex-wrap: It wraps the items in a container. If the items do not fit then we can add flex-wrap: wrap; to the flex container to add the extra items onto a next line.

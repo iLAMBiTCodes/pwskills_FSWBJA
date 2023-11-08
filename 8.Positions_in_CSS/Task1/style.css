@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box{
+    border: 1px solid gold;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    text-align: center;
+    background-color:aquamarine;
+}
+.box-A{
+    top: 200px;
+    left: 200px;
+    z-index: -1;
+}
+.box-B{
+    top: 170px;
+    left: 170px;
+}
+.box-C{
+    top: 170px;
+    left: 230px;
+}
+.box-D{
+    top: 230px;
+    left: 170px;
+}
+.box-E{
+    top: 230px;
+    left: 230px;
+}

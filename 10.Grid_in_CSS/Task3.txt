@@ -1,0 +1,33 @@
+grid-auto-rows: It is used to defined the size of row that are implicitly created in the grid when the size isn't defined explicitly.
+grid-auto-columns: It is used to defined the size of column that are implicitly created in the grid when the size isn't defined explicitly.
+
+Example:
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .container {
+      display: grid;
+      grid-template-rows: 100px 100px; /* 2 rows defined explicity */
+      grid-auto-rows: 50px; /* size of implicitly defined row */
+      grid-auto-columns: 200px; /* size of implicitly defined column*/
+      grid-gap: 10px;
+    }
+
+    .item {
+      background-color: red;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item item-1">1</div>
+    <div class="item item-2">2</div>
+    <div class="item item-3">3</div>
+    <div class="item item-4">4</div>
+    <div class="item item-5">5</div>
+
+  </div>
+</body>
+</html>

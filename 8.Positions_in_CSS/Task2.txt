@@ -1,0 +1,6 @@
+Difference between Absolute and Relative Positioning:
+1.When a child has position absolute, then the child is positioned with respect to its first parent. When a child has position relative, then it is positioned relative to its normal position.
+2. Absolute positioning allows to to place an element exactly where we want it. When we add position relative to an element, without adding other positioning attributes like top, left, bottom,etc. nothing will happen. When you add an additional position apart from relative, such as left: 10px the element will move 10px to the right from its normal position. Thus on relative positioning the element is positioned relative to its normal position.
+3. Elements will relative positioning will get moved with the rest of the page when the user scrolls the page, whereas the elements will absolute positioning will stick to the mentioned position.
+4.Relative Positioning is commonly used for making small adjustments to the position of elements without disrupting the document flow. For example, you might use relative positioning to move a button slightly to the right.
+Absolute Positioning is often used for creating overlay elements, such as tooltips, modal dialogs, or pop-up menus, that should not affect the layout of the surrounding content.

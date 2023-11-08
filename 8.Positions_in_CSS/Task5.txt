@@ -1,0 +1,32 @@
+z-index of an element determines the order of stacking of the element with other elements, i.e. it determines whether it should be placed above or below certain elements.
+Below is a code which places the green box above the red:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>z-index</title>
+</head>
+<style>
+    .red{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: absolute;
+    }
+    .green{
+        width: 200px;
+        height: 200px;
+        background-color: green;
+        top: 50px;
+        left: 50px;
+        position: absolute;
+        z-index: 2;
+    }
+</style>
+<body>
+    <div class="red"></div>
+    <div class="green"></div>
+</body>
+</html>
