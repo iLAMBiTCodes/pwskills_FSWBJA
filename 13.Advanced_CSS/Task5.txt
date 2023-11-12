@@ -1,0 +1,1 @@
+Open developer tools and select the button and then just rename the content with "Connect with us" inside the button.

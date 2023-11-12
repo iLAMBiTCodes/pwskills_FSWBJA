@@ -1,0 +1,1 @@
+The var() function in CSS is used to store value of a custom property and later this var() function can be used to refer to the value while applying to a certain property

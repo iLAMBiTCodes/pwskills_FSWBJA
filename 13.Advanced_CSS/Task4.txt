@@ -1,0 +1,1 @@
+We just have to select the svg logo and using the developer toolkit, we have to add the code "visibility:hidden" to the svg element
