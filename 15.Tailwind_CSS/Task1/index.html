@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-screen h-screen">
+    <div class="h-full w-fit border-2 mx-auto flex gap-4 items-center justify-around p-4">
+        <div class="flex flex-col">
+            <div class="flex flex-col items-center">
+                <h1 class="font-bold text-2xl my-2">Login</h1>
+                <p class="text-gray-600 my-2">Enter your credential to access your account</p>
+                <button class="border-2 px-16 py-2 my-4 flex items-center gap-4 font-semibold rounded">
+                    <img src="https://kgo.googleusercontent.com/profile_vrt_raw_bytes_1587515358_10512.png" alt="" width="32px">
+                    Login with Google
+                </button>
+            </div>
+            <div class="flex items-center my-4">
+                <div class="flex-auto h-[2px] bg-gray-200"></div>
+                <h2 class="px-2">Or</h2>
+                <div class="flex-auto h-[2px] bg-gray-200"></div>
+            </div>
+            <form action="" class="flex flex-col">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="email@gmail.com" required class="border-2 px-2 py-1 rounded mb-4">
+                <div class="flex justify-between">
+                    <label for="password">
+                        Password
+                    </label>
+                    <a href="" class="text-blue-700">Forgot Password?</a>
+                </div>
+                <input type="password" id="password" placeholder="Password" required class="border-2 px-2 py-1 rounded">
+                <button class="w-100 border-2 rounded my-4 py-1 px-4 bg-blue-600 text-white">Login</button>
+            </form>
+            <p class="text-center">Don't have an account? <a href="" class="font-bold">Register Here</a></p>
+        </div>
+        <div class="hidden sm:hidden lg:block"><img src="https://img.freepik.com/free-photo/young-happy-woman-with-good-idea-sign-white-shirt-full-portrait_186202-4377.jpg?w=360&t=st=1700716250~exp=1700716850~hmac=509615e66465a7b8efef7c71932c109aea4da71536fff4685a65803124d64122" alt="" class=""></div>
+    </div>
+</body>
+</html>
