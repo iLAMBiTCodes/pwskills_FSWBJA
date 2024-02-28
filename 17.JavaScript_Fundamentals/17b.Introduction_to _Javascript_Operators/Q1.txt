@@ -1,0 +1,6 @@
+Operators are symbols in JavaScript that perform operations on operands. Operands can be values or variables(numbers, strings).
+Operators are essential in any programming language because of the following reasons:
+1. Performing Mathematical Operations: Operators execute mathematical operations like addition, subtraction, multiplication, etc on values or variables.
+2.Expressing Logic: Logical Operators (AND, OR, NOT) express conditions and control flow of program.
+3.Assigning values: Values can be assigned using the equal(=) opeartor, which allows us to store and update data.
+4.Comparing Values: Comparison operators like == or === helps us to compare values, or even values with the corresponding data types.

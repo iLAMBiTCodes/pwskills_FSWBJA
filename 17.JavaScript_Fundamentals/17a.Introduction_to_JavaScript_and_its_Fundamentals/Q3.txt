@@ -1,0 +1,6 @@
+The five primitive data types in Javscript are explained below:
+1.String: A string is a sequence of characters, such as text or even numbers. Any letters, words written inside double quotes(single quotes) is a string.
+2.Number: Number represents numeric values, including integers and floating-point numbers, etc
+3.Boolean: A boolean is a logical value, either 'true' or 'false'.
+4.Undefined: A variable that has been declared but has not been assigned any value is undefined.
+5.Null: Null represents the intentional absence of any object value.

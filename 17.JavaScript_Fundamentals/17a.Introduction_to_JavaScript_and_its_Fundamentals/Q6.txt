@@ -1,0 +1,14 @@
+Choosing meaningful and descriptive variable names in JavaScript is crucial for writing clear, understandable, and maintainable code.
+Using clear identifiers one can improve code readability, maintainability, documentation, collaboration, bug preventation.
+
+Using generic names, we get:
+let l = 6; // length
+let w = 9; // breadth
+
+let result = a * b;
+
+Using meaningful names, we get:
+let length = 6; // length
+let breadth = 9; // breadth
+
+let areaOfRectangle = length * breadth;
