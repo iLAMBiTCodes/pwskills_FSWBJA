@@ -1,0 +1,13 @@
+Comments are a important part in any programming including Javascript. It provides readability to the code. Comments can be given to the code to explain a particular line or piece of code which furthur can be used for code maintainability.
+
+Single line comments are given followed by '//'
+Example: let fruit = apple; //Assigning variable fruit with value apple
+
+Multi line comments are written inside /*(which is one line) and */(which is on another).
+Example: 
+let a = 5;
+let b = 10;
+/*
+Here we assign variable a = 5
+Here we assign variable b = 10
+*/

@@ -1,0 +1,4 @@
+In JavaScript, Unary, Binary and Ternary operators refer to operators that operate on one, two and three operands, respectively.
+1.Unary operator: Unary operator operate on single operand. Examples of unary operator are negation('-') or positive ('+') sign. Other examples include the logical NOT ('!'), typeof, and increment('++') and decrement('--') operators.
+2.Binary opeartor: Binary operator operates on two operands.Examples of binary operators are addition('+'), subtraction('-'), multiplication('*'), division('/') and comparison operators like equality('==','==='), inequality('!=', '!=='), etc.
+3.Ternary Operator: Ternary operator is the single handedly the only operator in JavaScript. It is shorthand for 'if-else' statement and used to make quick decision based on the condition.

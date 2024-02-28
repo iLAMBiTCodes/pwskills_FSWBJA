@@ -1,0 +1,6 @@
+Variables are used to store and manage data in a program. They provide a way to reference and manipulate values making code more readable, maintainable, and flexible.
+
+We declare Variables in Javascript 'let' keyword in javascipt as below:
+
+let variableName; //Declaration without initialization
+let anotherVariableName = 2; //Declaration with Initialization
