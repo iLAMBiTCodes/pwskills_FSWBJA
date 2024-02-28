@@ -1,7 +1,0 @@
-Opeartor Precedence and Associativity determine the order in which opeartors are evaluated in an expression when there are multiple operators. Precedence refers to the priorty of operators, and associativity refers to the order in which operators of the same precedence are evaluated.
-
-1.Precedence: Precedence determines the priority of operators in an expression.Operators with higher precedence are evaluated first. Consider the expression "a + b * c", multiplication(*) has higher precedence that addition (+), so b * c will get evaluated first and then the resultant will be added to a
-
-2.Associativity: Associativity determines the order in which operators of the same precedence are evaluated when they appear in sequence. It can be either from left to right or right to left.For example, addition (+) is left-associative, so in the expression a + b + c, the operations are evaluated from left to right.
-
-Understanding precendence and associativity is necessary for proper functioning of the code. If there will be no rules of precedence and associativity, expressions might get evaluated in unexpected ways which will lead to bugs in the code.
