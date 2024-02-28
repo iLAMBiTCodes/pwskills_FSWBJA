@@ -1,6 +1,0 @@
-The key differences between Javascript and HTML are explained below:
-1. JavaScript is a Programming Language whereas HTML is a markup language.
-2.JavaScript provides dynamic behavior to web pages, allowing for interactivity and manipulation of content. HTMl describes the structure and content of web page.
-3.Example use cases of JavaScript are: Handling user interactions(e.g, button clicks, form submissions), fetching data from the server, manipulating and updating DOM. Example use cases of HTML: Defining and structuring tables and elements, header elements, inserting media like images and videos, creating forms, etc
-
-HTML would be helpful in giving overall structure to a webpage, whereas JavaScript would be helpful in giving interactivity to the elements of the same webpage. HTML would be helpful to add an image to a page whereas adding animation or effect to the image would require JavaScript.
