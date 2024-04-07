@@ -1,0 +1,5 @@
+Version control is a system or software that helps to track changes in code on a codebase and keeps a history of it. 
+Its importance in software development are:
+1. History: Version control system like git keeps a history of the changes in code so that it can be reverted back when needed.
+2.Collaboration: It helps multiple developers to collaborate and work in the same project and in the same time and later merge it.
+3.Backup: git also provides a backup for the code so that if anyone accidentally delete the code files they can be accessed.

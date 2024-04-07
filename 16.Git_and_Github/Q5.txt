@@ -1,0 +1,9 @@
+The step-by-step process of contributing to any open-source project on Github is explained below:
+
+1.First of all we have to  find a project to contribute to. Once can find the desired on Github as there are millions of projects on Github.
+2.Then we read the project contribution guidelines and rules.
+3.We create a fork, also known as clone of the project, where we can make changes without affecting the main codebase. To create a fork, we have to click fork button the project's page. and then we clone the project to local computer.
+4.Make or contribute changes or features in the project. Make sure to follow the project's contribution guidelines and to test the changes thoroughly.
+5. Commit the changes
+6. Push the changes to your fork. This will allow other developers to see your changes in the project.
+7.Create a pull request by clicking pull request button on your fork page. And wait for the code to get reviewed. Once the developers approve your changes they will merge your code into the main codebase.

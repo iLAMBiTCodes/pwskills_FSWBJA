@@ -1,0 +1,2 @@
+A .gitignore is a file which includes all the name of the files and folders in the directory that git should ignore.
+Sometimes we don't want to allow git to push unnecessary files to Remote repository and add such name files/folders to the gitignore makes the files invisible to the git

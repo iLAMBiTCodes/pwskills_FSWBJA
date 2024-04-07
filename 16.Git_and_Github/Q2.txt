@@ -1,0 +1,5 @@
+Git workflow is a set of steps that allows developers to edit, manage and track the code via Git, a well know Version Control System.
+The steps are explained below:
+1.Working Directory: It is the directory where you edit and write code. When we talk about the working directory we mean the local system.
+2.Staging Area: As the name says, developers after writing the code and editing it takes it to the staging area, where commits(history mark) are made and furthur uploads the code to the repository
+3.Repository: Git repository or simply repository is the place where the code is pushed and permenantly stores commited snapshots of the projects. It contains the complete history of changes, branches, tags and other Git-related data
