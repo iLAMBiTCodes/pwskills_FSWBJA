@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+<body class="h-screen">
+    <div class="flex flex-row w-screen h-full bg-[rgb(246,248,252)]">
+        <!-- Left Navigation -->
+        <div class="flex flex-col flex-grow-1 align-middle w-22 gap-8 p-4 pt-6 bg-[rgb(234,241,251)]">
+            <div class="flex justify-center p-2 rounded-full cursor-pointer hover:bg-blue-100">
+                <span class="text-center cursor-pointer material-symbols-outlined ">
+                    menu
+                </span>
+            </div>
+            
+            <div class="flex flex-col justify-center">
+                <span class="text-center cursor-pointer material-symbols-outlined px-2 py-1 bg-[rgb(211,227,253)] rounded-full">
+                    mail
+                </span>
+                <p class="text-sm text-center">Mail</p>
+            </div>
+            
+            <div class="flex flex-col justify-center p-2 rounded-full cursor-pointer hover:bg-blue-100">
+                <span class="text-center cursor-pointer material-symbols-outlined">
+                    tooltip
+                </span>
+                <p class="text-sm text-center">Chat</p>
+            </div>
+            <div class="flex flex-col justify-center p-2 rounded-full cursor-pointer hover:bg-blue-100">
+                <span class="text-center cursor-pointer material-symbols-outlined">
+                    groups
+                </span>
+                <p class="text-sm text-center">Spaces</p>
+            </div>
+            <div class="flex flex-col justify-center p-2 rounded-full cursor-pointer hover:bg-blue-100">
+                <span class="text-center cursor-pointer material-symbols-outlined">
+                    videocam
+                </span>
+                <p class="text-sm text-center">Meet</p>
+            </div>
+        </div>
+        <!-- Right Section -->
+        <div class="flex flex-col flex-grow h-full">
+            <!-- Top Navigation -->
+            <div class="flex flex-row items-center justify-between h-20 px-6">
+                <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_light_1x_r5.png" alt="" srcset="" class="h-14">
+
+                <div class="flex flex-row min-w-[500px] p-2 rounded-full bg-[rgb(234,241,251)] justify-between ">
+                    <span class="p-2 rounded-full cursor-pointer material-symbols-outlined hover:bg-blue-100">
+                        search
+                    </span>
+                    <div class="flex-grow align-middle pl-4 p-2 text-[16px] text-[rgb(188,200,224)]">
+                        <span>Search in Emails</span>
+                    </div>
+                    <span class="p-2 rounded-full cursor-pointer material-symbols-outlined hover:bg-blue-100">
+                        tune
+                    </span>
+                </div>
+
+                <div class="flex flex-row items-center gap-8">
+                    <button class="flex justify-center items-center p-4 gap-3 align-middle bg-[rgb(234,241,251)] rounded-full">
+                        <div class="w-2 h-2 bg-green-500 rounded-full"></div>
+                        <span>Active</span>
+                        <span class="text-center material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </button>
+                    <span class="p-2 rounded-full cursor-pointer material-symbols-outlined hover:bg-blue-100">
+                        help
+                    </span>
+                    <span class="p-2 rounded-full cursor-pointer material-symbols-outlined hover:bg-blue-100">
+                        settings
+                    </span>
+                    <span class="p-2 rounded-full cursor-pointer material-symbols-outlined hover:bg-blue-100">
+                        apps
+                    </span>
+                    <div class="w-[48px] h-[48px] rounded-full flex justify-center items-center text-white bg-violet-700"><p>V</p></div>
+
+                </div>
+            </div>
+            <!-- Section -->
+            <div class="flex h-full">
+                <div class="w-[288px] px-3 h-full">
+
+                    <button class="flex items-center px-4 py-3 bg-[rgb(194,231,255)] rounded-2xl mt-4">
+                        <span class="material-symbols-outlined">
+                            edit
+                        </span>
+                        <span>Compose</span>
+                    </button>
+
+                    <div class="flex flex-col gap-1 my-4">
+                        <button class="flex flex-row items-center w-full px-4 py-1 gap-4 font-bold rounded-full bg-[rgb(211,227,253)]">
+                            <span class="material-symbols-outlined">inbox</span>
+                            <p class="text-[14px]">Inbox</p>
+                        </button>
+                        <button class="flex flex-row items-center w-full gap-4 px-4 py-1 rounded-full">
+                            <span class="material-symbols-outlined">star</span>
+                            <p class="text-[14px]">Starred</p>
+                        </button>
+                        <button class="flex flex-row items-center w-full gap-4 px-4 py-1 rounded-full">
+                            <span class="material-symbols-outlined">schedule</span>
+                            <p class="text-[14px]">Snoozed</p>
+                        </button>
+                        <button class="flex flex-row items-center w-full gap-4 px-4 py-1 rounded-full">
+                            <span class="material-symbols-outlined">send</span>
+                            <p class="text-[14px]">Sent</p>
+                        </button>
+                        <button class="flex flex-row items-center w-full gap-4 px-4 py-1 rounded-full">
+                            <span class="material-symbols-outlined">draft</span>
+                            <p class="text-[14px]">Drafts</p>
+                        </button>
+                        <button class="flex flex-row items-center w-full gap-4 px-4 py-1 rounded-full">
+                            <span class="material-symbols-outlined">keyboard_arrow_down</span>
+                            <p class="text-[14px]">More</p>
+                        </button>
+                    </div>
+
+                    <button class="flex items-center justify-between w-full px-2 text-l">
+                        <span>Labels</span>
+                        <span class="material-symbols-outlined">add</span>
+                    </button>
+
+                    <div class="flex"></div>
+                </div>
+                <div class="w-full bg-white rounded-2xl">
+                    <!-- Options -->
+                    <div class="flex justify-between p-6">
+                        <div class="flex items-center justify-center gap-4">
+                            <span class="flex flex-row items-center justify-center">
+                                <input type="checkbox">
+                                <span class="material-symbols-outlined">keyboard_arrow_down</span>  
+                            </span>
+                            <span class="material-symbols-outlined">sync</span> 
+                            <span class="material-symbols-outlined">more_vert</span> 
+                        </div>
+                        <div class="flex items-center justify-center gap-4">
+                            <span><p class="text-sm">1-50 of 550</p></span>
+                            <span class="material-symbols-outlined">keyboard_arrow_left</span>
+                            <span class="material-symbols-outlined">keyboard_arrow_right</span>
+                            <div class="flex items-center justify-center">
+                                <span class="material-symbols-outlined">keyboard</span>
+                                <span class="material-symbols-outlined">arrow_drop_down</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Message Tabs -->
+                    <div class="flex items-center h-[48px]">
+                        <div class="font-semibold flex items-center w-64 h-full gap-2 text-[14px] text-blue-600 border-4 border-white border-b-blue-700 hover:bg-gray-100">
+                            <span class="material-symbols-outlined">inbox</span>
+                            <p>Primary</p>
+                        </div>
+                        <div class="font-semibold flex items-center w-64 h-full gap-2 text-[14px] hover:bg-gray-100">
+                            <span class="material-symbols-outlined">sell</span>
+                            <p>Promotions</p>
+                        </div>
+                        <div class="font-semibold flex items-center w-64 h-full gap-2 text-[14px] hover:bg-gray-100">
+                            <span class="material-symbols-outlined">info</span>
+                            <p>Updates</p>
+                        </div>
+                        
+                    </div>
+                    <!-- Messages Part -->
+                    <div class="h-[800px] overflow-y-scroll">
+
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between px-4 py-2 border-b-2 border-gray-200 bg-[rgb(242,246,252)] hover: border-t-2 hover:border-t-gray-300 hover:border-b-gray-300 hover:shadow-lg">
+                            <div class="flex items-center gap-4">
+                                <span class="flex flex-row items-center gap-4">
+                                    <input type="checkbox">
+                                    <span class="text-gray-400 material-symbols-outlined">star</span>  
+                                </span>
+                                <img src="./images/label_important_24dp_EAC452_FILL1_wght400_GRAD0_opsz24.svg" alt="important icon">
+                                <span class="text-sm"">PW Skills</span>
+                            </div>
+                            <div class="text-sm">
+                                <p>Important mail for 2 Step verification ccccccc ..........</p>
+                            </div>
+                            <div class="text-sm text-gray-500">
+                                15:00
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Rightmost Apps bar -->
+                <div class="w-[80px] flex flex-col items-center">
+                    <ul class="flex flex-col items-center gap-4 pt-4 list-none">
+                        <li class="p-2 rounded-full hover:bg-blue-100"><img src="https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png" alt="" class="cursor-pointer w-7"></li>
+                        <li class="p-2 rounded-full hover:bg-blue-100"><img src="https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png" alt="" class="cursor-pointer w-7"></li>
+                        <li class="p-2 rounded-full hover:bg-blue-100"><img src="https://www.gstatic.com/companion/icon_assets/tasks_2021_2x.png" alt="" class="cursor-pointer w-7"></li>
+                        <li class="p-2 rounded-full hover:bg-blue-100"><img src="https://www.gstatic.com/companion/icon_assets/contacts_2022_2x.png" alt="" class="cursor-pointer w-7"></li>
+                    </ul>
+                    <div class="h-[2px] bg-gray-300 w-[30px] my-12"></div>
+                    <div><img src="https://lh3.googleusercontent.com/pw/AM-JKLUkiyTEgH-6DiQP85RGtd_BORvAuFnS9katNMgwYQBJUTiDh12qtQxMJFWYH2Dj30hNsNUrr-kzKMl7jX-Qd0FR7JmVSx-Fhruf8xTPPI-wdsMYez6WJE7tz7KmqsORKBEnBTiILtMJXuMvphqKdB9X=s128-no" alt="" class="rounded-full cursor-pointer w-7 hover:bg-blue-100"></div>
+                    <span class="p-2 my-10 rounded-full material-symbols-outlined hover:bg-blue-100">add</span>
+                    <span class="p-2 mt-auto mb-4 rounded-full my material-symbols-outlined hover:bg-blue-100">keyboard_arrow_left</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
